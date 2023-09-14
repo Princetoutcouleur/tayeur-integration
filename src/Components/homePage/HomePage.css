@@ -1,0 +1,23 @@
+#Banner .Top-banner{
+    background-image: url(../../Assets/home-bg-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#Banner .Top-banner .Top-banner-content{
+    background-color: rgba(255, 0, 0, 0.338);
+}
+#Banner .Bottom-banner{
+    background-image: url(../../Assets/bottom-banner-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#Banner .Bottom-banner .Bottom-banner-content{
+    background: linear-gradient(to right, black, transparent);
+}
+#CardAtelier img{
+    height: 150px;
+}
