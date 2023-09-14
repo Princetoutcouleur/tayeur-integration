@@ -6,8 +6,8 @@ import AtelierPage from './Components/pageAtelier/AtelierPage';
 function App() {
   return (
     <div className="App">
-      {/* <HomePage/> */}
-      <AtelierPage/>
+      <HomePage/>
+      {/* <AtelierPage/> */}
     </div>
   );
 }
