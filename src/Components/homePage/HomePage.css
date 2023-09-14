@@ -18,6 +18,6 @@
 #Banner .Bottom-banner .Bottom-banner-content{
     background: linear-gradient(to right, black, transparent);
 }
-#CardAtelier img{
-    height: 150px;
+#CardAtelier .card-img-top{
+    height: 161px;
 }
