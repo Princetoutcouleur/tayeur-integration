@@ -6,7 +6,7 @@ import {FaFacebookF, FaInstagram} from 'react-icons/fa'
 const Information = () => {
   return (
     <div id='information'>
-      <div className="card p-3 rounded-5">
+      <div className="card p-3 rounded-5 shadow">
         <div className="card-body">
             <p className="fw-bold text-uppercase">information</p>
             <hr />

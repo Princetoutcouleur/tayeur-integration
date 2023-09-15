@@ -5,10 +5,12 @@ import {
   BsTelephoneFill,
   BsFillChatLeftTextFill,
 } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const CardAtelier = (props) => {
   return (
-    <div>
+    <Link to='../detailAtelier' className="text-decoration-none">
+      <div>
       <div id="CardAtelier" class="card shadow-lg mb-3 ">
         <div className="card-img-top d-flex justify-content-center align-items-center border-bottom">
           <div>
@@ -50,6 +52,7 @@ const CardAtelier = (props) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 

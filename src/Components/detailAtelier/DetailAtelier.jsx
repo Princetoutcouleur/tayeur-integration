@@ -5,6 +5,9 @@ import Banner from "./Banner";
 import Contact from "./Contact";
 import Description from "./Description";
 import Information from "./Information";
+import ContactInfo from "./ContactInfo";
+import Category from "./Category";
+import Gallery from "./Gallery";
 
 const DetailAtelier = () => {
   return (
@@ -18,7 +21,7 @@ const DetailAtelier = () => {
             {/* contact */}
             <Contact/>
             </div>
-          <div className="col-xl-8 col-lg-8 ">
+          <div className="col-xl-8 col-lg-8 mb-3">
             {/* description */}
             <Description/>
             </div>
@@ -26,15 +29,24 @@ const DetailAtelier = () => {
         <div className="row">
           <div className="col-xl-4 col-lg-4">
             <div className="row">
-              <div className="col-xl-12 col-lg-12">
+              <div className="col-xl-12 col-lg-12 mb-3">
                 {/* information */}
                 <Information/>
               </div>
-              <div className="col-xl-12 col-lg-12">{/* contactInfo */}</div>
-              <div className="col-xl-12 col-lg-12">{/* categories */}</div>
+              <div className="col-xl-12 col-lg-12 mb-3 ">
+                {/* contactInfo */}
+                <ContactInfo/>
+              </div>
+              <div className="col-xl-12 col-lg-12">
+                {/* categories */}
+                <Category/>
+              </div>
             </div>
           </div>
-          <div className="col-xl-8 col-lg-8">{/* gallerie */}</div>
+          <div className="col-xl-8 col-lg-8">
+            {/* gallerie */}
+            <Gallery/>
+          </div>
         </div>
         <div className="row">
           <div className="col-xl-4 col-lg-4">

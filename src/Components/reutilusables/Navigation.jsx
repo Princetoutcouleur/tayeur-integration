@@ -34,28 +34,28 @@ const Navigation = () => {
                 </Link>
               </li>
               <li class="nav-item fs-5">
-                <Link className="text-decoration-none" to="./atelier">
+                <Link className="text-decoration-none" to="/atelier">
                   <a class="nav-link" >
                     Ateliers
                   </a>
                 </Link>
               </li>
               <li class="nav-item fs-5">
-                <Link className="text-decoration-none" to="./produit">
+                <Link className="text-decoration-none" to="/produit">
                   <a class="nav-link "  >
                     Produits
                   </a>
                 </Link>
               </li>
               <li class="nav-item fs-5">
-                <Link className="text-decoration-none" to="./about">
+                <Link className="text-decoration-none" to="/about">
                   <a class="nav-link" >
                     À propos de nous
                   </a>
                 </Link>
               </li>
               <li class="nav-item fs-5">
-                <Link className="text-decoration-none" to="./contact">
+                <Link className="text-decoration-none" to="/contact">
                   <a class="nav-link" >
                     Contact
                   </a>
