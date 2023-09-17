@@ -8,6 +8,8 @@ import Information from "./Information";
 import ContactInfo from "./ContactInfo";
 import Category from "./Category";
 import Gallery from "./Gallery";
+import Localisation from "./Localisation";
+import Planning from "./Planning";
 
 const DetailAtelier = () => {
   return (
@@ -50,9 +52,15 @@ const DetailAtelier = () => {
         </div>
         <div className="row">
           <div className="col-xl-4 col-lg-4">
-            <div className="row">
-              <div className="col-xl-12 col-lg-12">{/* map */}</div>
-              <div className="col-xl-12 col-lg-12">{/* planning */}</div>
+            <div className="row mt-3">
+              <div className="col-xl-12 col-lg-12 mb-3">
+                {/* map */}
+                <Localisation/>
+              </div>
+              <div className="col-xl-12 col-lg-12">
+                {/* planning */}
+                <Planning/>
+              </div>
             </div>
           </div>
           <div className="col-xl-8 col-lg-8">

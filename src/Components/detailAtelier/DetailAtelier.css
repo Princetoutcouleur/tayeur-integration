@@ -47,3 +47,13 @@
 }
 /* information */
 
+/* Map / loclisation */
+.localisation{
+    height: 300px;
+    border-radius: 10px;
+}
+#carte{
+    height: 100%;
+    width: 100%;
+}
+/* Map / loclisation */
