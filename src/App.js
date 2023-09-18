@@ -6,6 +6,7 @@ import AtelierPage from './Components/pageAtelier/AtelierPage';
 import DetailAtelier from './Components/detailAtelier/DetailAtelier';
 import ProductPage from './Components/productPage/ProductPage';
 import AboutPage from './Components/aboutPage/AboutPage';
+import ContactPage from './Components/contactPage/ContactPage';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/detailAtelier' element={<DetailAtelier/>}/>
           <Route path='/produit' element={<ProductPage/>}/>
           <Route path='/about' element={<AboutPage/>}/>
+          <Route path='/contact' element={<ContactPage/>}/>
         </Routes>
       </BrowserRouter>
     </div>

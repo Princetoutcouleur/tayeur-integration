@@ -10,7 +10,7 @@ body{
 }
 /* Largeur de la barre de défilement */
 body::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
   }
   
   /* Couleur de fond de la barre de défilement */

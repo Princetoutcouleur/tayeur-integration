@@ -3,7 +3,7 @@ import {BsFillDropletFill} from 'react-icons/bs'
 
 const ContactForm = () => {
   return (
-    <div id="Form" className="card shadow rounded-5 mt-3">
+    <div id="Form" className="card shadow rounded-5 mt-3 mb-3">
       <div className="card-body">
         <p className="text-uppercase fw-bold">contactez nous</p>
         <hr />

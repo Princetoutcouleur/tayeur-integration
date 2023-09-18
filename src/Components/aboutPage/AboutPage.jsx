@@ -25,7 +25,7 @@ const AboutPage = () => {
         </div>
         <div className="col-lg-6 px-5 d-flex justify-content-center align-items-center">
           <div>
-          <h1>Qui sommes nous ?</h1>
+          <h1 className="fw-bold">Qui sommes nous ?</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore architecto molestiae natus, facilis fuga at dolore totam! Ut delectus aut aspernatur magni quas eos quod a rem, tempora vel.</p>
           <br />
           <p className="text-danger text-wrap">
@@ -37,7 +37,7 @@ const AboutPage = () => {
       <div className="row g-0">
        <div className="col-lg-6 px-5 d-flex justify-content-center align-items-center">
           <div>
-          <h1>Notre vision</h1>
+          <h1 className="fw-bold">Notre vision</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore architecto molestiae natus, facilis fuga at dolore totam! Ut delectus aut aspernatur magni quas eos quod a rem, tempora vel.</p>
           <br />
           <p className="text-danger text-wrap">
@@ -55,7 +55,7 @@ const AboutPage = () => {
         </div>
         <div className="col-lg-6 px-5 d-flex justify-content-center align-items-center">
           <div>
-          <h1>Notre mission</h1>
+          <h1 className="fw-bold">Notre mission</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore architecto molestiae natus, facilis fuga at dolore totam! Ut delectus aut aspernatur magni quas eos quod a rem, tempora vel.</p>
           <br />
           <p className="text-danger text-wrap">
@@ -67,7 +67,7 @@ const AboutPage = () => {
       <div className="row g-0">
       <div className="col-lg-6 px-5 d-flex justify-content-center align-items-center">
           <div>
-          <h1>Notre valeur</h1>
+          <h1 className="fw-bold">Notre valeur</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima labore architecto molestiae natus, facilis fuga at dolore totam! Ut delectus aut aspernatur magni quas eos quod a rem, tempora vel.</p>
           <br />
           <p className="text-danger text-wrap">
