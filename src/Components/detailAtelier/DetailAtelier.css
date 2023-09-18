@@ -57,3 +57,19 @@
     width: 100%;
 }
 /* Map / loclisation */
+
+/* ContactForm */
+#Form textarea{
+    height: 200px;
+}
+/* ContactForm */
+
+/* testimonials */
+#temoignage{
+    background-image: url(../../Assets/bg-testimonial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+/* testimonials */

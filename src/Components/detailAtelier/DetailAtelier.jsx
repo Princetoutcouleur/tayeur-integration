@@ -10,10 +10,16 @@ import Category from "./Category";
 import Gallery from "./Gallery";
 import Localisation from "./Localisation";
 import Planning from "./Planning";
+import Comment from "./Comment";
+import Note from "./Note";
+import ContactForm from "./ContactForm";
+import Footer from '../reutilusables/Footer'
+import CallToAction from "./CallToAction";
+import Testimonials from "./Testimonials";
 
 const DetailAtelier = () => {
   return (
-    <div id="DetailAtelier" className="container-fluid">
+    <div id="DetailAtelier" className="container-fluid p-0">
       <Navigation />
       {/* banner */}
       <Banner/>
@@ -65,21 +71,33 @@ const DetailAtelier = () => {
           </div>
           <div className="col-xl-8 col-lg-8">
             <div className="row">
-              <div className="col-xl-12 col-lg-12">{/* comment */}</div>
-              <div className="col-xl-12 col-lg-12">{/* note */}</div>
-              <div className="col-xl-12 col-lg-12">{/* contactForm */}</div>
+              <div className="col-xl-12 col-lg-12 my-3">
+                {/* comment */}
+                <Comment/>
+              </div>
+              <div className="col-xl-12 col-lg-12">
+                {/* note */}
+                <Note/>
+              </div>
+              <div className="col-xl-12 col-lg-12">
+                {/* contactForm */}
+                <ContactForm/>
+              </div>
             </div>
           </div>
         </div>
         <div className="row">
-            <div>
+            <div className="col-12">
                 {/* callToAction */}
+                <CallToAction/>
             </div>
         </div>
       </div>
-      <div className="container-fluid">
+      <div className="container-fluid p-0">
         {/* testimonial */}
+        <Testimonials/>
         {/* footer */}
+        <Footer/>
       </div>
     </div>
   );

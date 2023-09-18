@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src={logo} alt="Logo tayeur" />
@@ -28,7 +28,7 @@ const Navigation = () => {
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
               <li class="nav-item fs-5">
                 <Link to="/" className="text-decoration-none">
-                  <a class="nav-link  active" aria-current="page" >
+                  <a class="nav-link" aria-current="page" >
                     Accueil
                   </a>
                 </Link>

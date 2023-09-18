@@ -8,7 +8,7 @@ import Footer from '../reutilusables/Footer'
 const HomePage = () => {
   return (
     <div id="HomePage">
-      <div className="container-fluid">
+      <div className="container-fluid p-0">
         {/* navbar */}
         <Navigation/>
         {/* banniére */}

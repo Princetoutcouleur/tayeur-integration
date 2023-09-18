@@ -80,7 +80,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="" className="text-decoration-none text-light">
-                  Tems&Conditions
+                  Terms&Conditions
                 </a>
               </li>
             </ul>

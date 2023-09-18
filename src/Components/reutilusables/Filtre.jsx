@@ -12,200 +12,200 @@ const Filtre = () => {
         <p className="mb-3">Affiner par</p>
         <div className="Categories mb-3">
           <p className="text-secondary">Categories</p>
-          <div className="d-flex">
-            <div>
-              <div class="form-check">
+          <div className="d-flex justify-content-between mb-3">
+            <div class="form-check">
                 <input
-                  class="form-check-input p-2"
+                  class="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-              </div>
+                <label class="form-check-label text-capitalize fs-6" for="flexCheckDefault">
+                taille basse
+                </label>
             </div>
-            <div className="d-flex gap-5">
-              <p className="text-capitalize fs-6">taille basse</p>
-              <p className="fw-bold">155</p>
+            <div className="">
+              <span className="fw-bold">155</span>
             </div>
           </div>
-          <div className="d-flex">
-            <div>
-              <div class="form-check">
+          <div className="d-flex justify-content-between mb-3">
+            <div class="form-check">
                 <input
-                  class="form-check-input p-2"
+                  class="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-              </div>
+                <label class="form-check-label text-capitalize fs-6" for="flexCheckDefault">
+                robe
+                </label>
             </div>
-            <div className="d-flex gap-5">
-              <p className="text-capitalize fs-6">robe</p>
-              <p className="fw-bold">70</p>
+            <div className="">
+              <span className="fw-bold">70</span>
             </div>
           </div>
-          <div className="d-flex">
-            <div>
-              <div class="form-check">
+          <div className="d-flex justify-content-between mb-3">
+            <div class="form-check">
                 <input
-                  class="form-check-input p-2"
+                  class="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-              </div>
+                <label class="form-check-label text-capitalize fs-6" for="flexCheckDefault">
+                grand boubou femme
+                </label>
             </div>
-            <div className="d-flex gap-5">
-              <p className="text-capitalize fs-6">grand boubou femme</p>
-              <p className="fw-bold">405</p>
+            <div className="">
+              <span className="fw-bold">486</span>
             </div>
           </div>
-          <div className="d-flex">
-            <div>
-              <div class="form-check">
+          <div className="d-flex justify-content-between mb-3">
+            <div class="form-check">
                 <input
-                  class="form-check-input p-2"
+                  class="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-              </div>
+                <label class="form-check-label text-capitalize fs-6" for="flexCheckDefault">
+                grand boubou homme
+                </label>
             </div>
-            <div className="d-flex gap-5">
-              <p className="text-capitalize fs-6">grand boubou homme</p>
-              <p className="fw-bold">75</p>
+            <div className="">
+              <span className="fw-bold">75</span>
             </div>
           </div>
-          <div className="d-flex">
-            <div>
-              <div class="form-check">
+          <div className="d-flex justify-content-between mb-3">
+            <div class="form-check">
                 <input
-                  class="form-check-input p-2"
+                  class="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-              </div>
+                <label class="form-check-label text-capitalize fs-6" for="flexCheckDefault">
+                costume africain
+                </label>
             </div>
-            <div className="d-flex gap-5">
-              <p className="text-capitalize fs-6">costume africain</p>
-              <p className="fw-bold">195</p>
+            <div className="">
+              <span className="fw-bold">195</span>
             </div>
           </div>
-          <div className="d-flex">
-            <div>
-              <div class="form-check">
+          <div className="d-flex justify-content-between mb-3">
+            <div class="form-check">
                 <input
-                  class="form-check-input p-2"
+                  class="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-              </div>
+                <label class="form-check-label text-capitalize fs-6" for="flexCheckDefault">
+                taille basse
+                </label>
             </div>
-            <div className="d-flex gap-5">
-              <p className="text-capitalize fs-6">costume</p>
-              <p className="fw-bold">200</p>
+            <div className="">
+              <span className="fw-bold">155</span>
             </div>
           </div>
         </div>
         <hr />
         <div className="Categories mb-3">
           <p className="text-secondary">Ateliers</p>
-          <div className="d-flex">
-            <div>
-              <div class="form-check">
+          <div className="d-flex justify-content-between mb-3">
+            <div class="form-check">
                 <input
-                  class="form-check-input p-2"
+                  class="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-              </div>
+                <label class="form-check-label text-capitalize fs-6" for="flexCheckDefault">
+                6 point 9
+                </label>
             </div>
-            <div className="d-flex gap-5">
-              <p className="text-capitalize">6 point 9</p>
-              <p className="fw-bold">27</p>
+            <div className="">
+              <span className="fw-bold">27</span>
             </div>
           </div>
-          <div className="d-flex">
-            <div>
-              <div class="form-check">
+          <div className="d-flex justify-content-between mb-3">
+            <div class="form-check">
                 <input
-                  class="form-check-input p-2"
+                  class="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-              </div>
+                <label class="form-check-label text-capitalize fs-6" for="flexCheckDefault">
+                fallou galass couture
+                </label>
             </div>
-            <div className="d-flex gap-5">
-              <p className="text-capitalize">fallou gallas couture</p>
-              <p className="fw-bold">36</p>
+            <div className="">
+              <span className="fw-bold">36</span>
             </div>
           </div>
-          <div className="d-flex">
-            <div>
-              <div class="form-check">
+          <div className="d-flex justify-content-between mb-3">
+            <div class="form-check">
                 <input
-                  class="form-check-input p-2"
+                  class="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-              </div>
+                <label class="form-check-label text-capitalize fs-6" for="flexCheckDefault">
+                djiby couture
+                </label>
             </div>
-            <div className="d-flex gap-5">
-              <p className="text-capitalize">djiby couture</p>
-              <p className="fw-bold">78</p>
+            <div className="">
+              <span className="fw-bold">78</span>
             </div>
           </div>
-          <div className="d-flex">
-            <div>
-              <div class="form-check">
+          <div className="d-flex justify-content-between mb-3">
+            <div class="form-check">
                 <input
-                  class="form-check-input p-2"
+                  class="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-              </div>
+                <label class="form-check-label text-capitalize fs-6" for="flexCheckDefault">
+                heritage couture
+                </label>
             </div>
-            <div className="d-flex gap-5">
-              <p className="text-capitalize">heritage couture</p>
-              <p className="fw-bold">103</p>
+            <div className="">
+              <span className="fw-bold">103</span>
             </div>
           </div>
-          <div className="d-flex">
-            <div>
-              <div class="form-check">
+          <div className="d-flex justify-content-between mb-3">
+            <div class="form-check">
                 <input
-                  class="form-check-input p-2"
+                  class="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-              </div>
+                <label class="form-check-label text-capitalize fs-6" for="flexCheckDefault">
+                djolof art
+                </label>
             </div>
-            <div className="d-flex gap-5">
-              <p className="text-capitalize">djolof art</p>
-              <p className="fw-bold">84</p>
+            <div className="">
+              <span className="fw-bold">84</span>
             </div>
           </div>
-          <div className="d-flex">
-            <div>
-              <div class="form-check">
+          <div className="d-flex justify-content-between mb-3">
+            <div class="form-check">
                 <input
-                  class="form-check-input p-2"
+                  class="form-check-input"
                   type="checkbox"
                   value=""
                   id="flexCheckDefault"
                 />
-              </div>
+                <label class="form-check-label text-capitalize fs-6" for="flexCheckDefault">
+                bamba couture
+                </label>
             </div>
-            <div className="d-flex gap-5">
-              <p className="text-capitalize">bamba couture</p>
-              <p className="fw-bold">62</p>
+            <div className="">
+              <span className="fw-bold">62</span>
             </div>
           </div>
         </div>

@@ -8,7 +8,7 @@ import Footer from "../reutilusables/Footer";
 
 const AtelierPage = () => {
   return (
-    <div id="AtelierPage" className="container-fluid">
+    <div id="AtelierPage" className="container-fluid p-0">
       <Navigation />
       <div className="container">
         <p className="fw-bold">Tous les items</p>

@@ -29,7 +29,7 @@ const Banner = () => {
       </div>
       <div className="Bottom-banner text-light">
         <div className=" Bottom-banner-content">
-          <div className="row">
+          <div className="row container-fluid">
             <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 p-5">
               <h1>Vous êtes à la recherche des meilleurs couturiers ?</h1>
               <h6>Passez à la vitesse supérieure avec Tayeur Gestion</h6>
