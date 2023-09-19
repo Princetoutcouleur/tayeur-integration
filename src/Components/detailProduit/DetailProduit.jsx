@@ -93,3 +93,8 @@ const DetailProduit = () => {
 };
 
 export default DetailProduit;
+
+
+
+
+// by The Pincetoutcouleur

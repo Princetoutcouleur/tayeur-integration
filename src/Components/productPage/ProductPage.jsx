@@ -29,3 +29,7 @@ const ProductPage = () => {
 }
 
 export default ProductPage
+
+
+
+// by The Pincetoutcouleur
