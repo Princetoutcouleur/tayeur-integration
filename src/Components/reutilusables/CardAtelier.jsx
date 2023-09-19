@@ -1,4 +1,5 @@
 import React from "react";
+import './reusable.css'
 import { AiFillStar } from "react-icons/ai";
 import {
   BsWhatsapp,
@@ -13,7 +14,7 @@ const CardAtelier = (props) => {
       <div>
       <div id="CardAtelier" class="card shadow-lg mb-3 ">
         <div className="card-img-top d-flex justify-content-center align-items-center border-bottom">
-          <div>
+          <div className="divImg">
             <img src={props.image} alt="" className="img-fluid rounded-top" />
           </div>
         </div>

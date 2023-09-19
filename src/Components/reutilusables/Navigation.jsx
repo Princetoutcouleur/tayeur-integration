@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../Assets/logo.png";
 import { Link } from "react-router-dom";
+import {GiHamburgerMenu} from 'react-icons/gi'
 
 const Navigation = () => {
   return (
@@ -11,7 +12,7 @@ const Navigation = () => {
             <img src={logo} alt="Logo tayeur" />
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border-0"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -19,7 +20,8 @@ const Navigation = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            {/* <span class="navbar-toggler-icon"></span> */}
+            <GiHamburgerMenu className="text-danger fs-2"/>
           </button>
           <div
             class="collapse navbar-collapse gap-5"

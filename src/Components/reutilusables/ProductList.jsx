@@ -23,7 +23,7 @@ const ProductList = () => {
     <div>
       <div className="row mb-3">
             {cardsData.map((card) => (
-              <div className="col-xl-4 col-lg-4">
+              <div className="col-xl-4 col-lg-4 mb-3">
                 <ProductCard image={card.image} title={card.title} />
               </div>
             ))}
