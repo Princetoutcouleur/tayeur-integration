@@ -10,11 +10,13 @@ import DetailProduit from './Components/detailProduit/DetailProduit';
 import AboutPage from './Components/aboutPage/AboutPage';
 import ContactPage from './Components/contactPage/ContactPage';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <ScrollToTop />
         <Routes>
           <Route path='/' element={<HomePage/>}/>
           <Route path='/atelier' element={<AtelierPage/>}/>
