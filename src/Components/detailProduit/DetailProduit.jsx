@@ -37,7 +37,7 @@ const DetailProduit = () => {
                   <img
                     src={grandBoubou}
                     alt=""
-                    className="img-fluid object-fit-"
+                    className="img-fluid"
                   />
                 </div>
                 <div className="bg-dark text-light px-2">

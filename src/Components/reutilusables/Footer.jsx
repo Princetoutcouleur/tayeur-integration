@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../Assets/logo-footer.png";
 import { BsInstagram, BsDribbble, BsTwitter, BsYoutube } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -48,31 +49,41 @@ const Footer = () => {
           <div className="col-xl-3 col-lg-3">
             <p className="fw-bold">Info</p>
             <ul className="list-unstyled lh-lg">
+              <Link to="/" className="text-decoration-none">
               <li>
                 <a href="" className="text-decoration-none text-light">
                   Accueil
                 </a>
               </li>
+              </Link>
+              <Link to="/atelier" className="text-decoration-none">
               <li>
                 <a href="" className="text-decoration-none text-light">
                   Ateliers
                 </a>
               </li>
+              </Link>
+              <Link to="/produit" className="text-decoration-none">
               <li>
                 <a href="" className="text-decoration-none text-light">
                   Produits
                 </a>
               </li>
+              </Link>
+              <Link to="/about" className="text-decoration-none">
               <li>
                 <a href="" className="text-decoration-none text-light">
                   À propos de nous
                 </a>
               </li>
+              </Link>
+              <Link to="/contact" className="text-decoration-none">
               <li>
                 <a href="" className="text-decoration-none text-light">
                   Contact
                 </a>
               </li>
+              </Link>
               <li>
                 <a href="" className="text-decoration-none text-light">
                   Privacy Policy
