@@ -19,11 +19,12 @@ import Testimonials from "./Testimonials";
 
 const DetailAtelier = () => {
   return (
-    <div id="DetailAtelier" className="container-fluid p-0">
+    <div id="DetailAtelier" className="container-fluid p-0 overflow-x-hidden">
       <Navigation />
       {/* banner */}
       <Banner/>
-      <div className="container py-5">
+      <div className="container-fluid py-5  bg-secondary-subtle">
+      <div className="container ">
         <div className="row">
           <div className="col-xl-4 col-lg-4">
             {/* contact */}
@@ -92,6 +93,7 @@ const DetailAtelier = () => {
                 <CallToAction/>
             </div>
         </div>
+      </div>
       </div>
       <div className="container-fluid p-0">
         {/* testimonial */}

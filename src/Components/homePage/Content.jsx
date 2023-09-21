@@ -11,7 +11,7 @@ const Content = () => {
         Nos ateliers de <strong className="text-dark">Couture</strong>
       </p>
       <div className="row">
-        <div className="col-xl-3 col-lg-3">
+        <div className="col-xl-3 col-lg-3 mb-3">
           <Filtre />
         </div>
         <div className="col-xl-9 col-lg-9">

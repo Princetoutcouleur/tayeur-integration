@@ -6,10 +6,10 @@ const Banner = () => {
       <div className="Top-banner vh-100">
         <div className="Top-banner-content vh-100 text-center text-light position-relative">
           <div className="mt-5 position-absolute top-50 start-50 translate-middle">
-            <h3>Découvrez votre prochaine session de créativité.</h3>
+            <h1>Découvrez votre prochaine session de créativité.</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            <div className="d-flex justify-content-center align-items-center">
-              <div>
+            <div className="row g-0">
+              <div className="col-lg-6 col-md-6 col-sm-12">
                 <select class="form-select rounded-0" aria-label="Default select example">
                   <option selected>Categories</option>
                   <option value="1">Taille basse</option>
@@ -20,8 +20,8 @@ const Banner = () => {
                   <option value="6">Costume</option>
                 </select>
               </div>
-              <div>
-              <button class="btn btn-danger rounded-0 px-5">Recherche</button>
+              <div className="col-lg-6 col-md-6 col-sm-12 text-start">
+              <button class="btn btn-danger rounded-0 px-5 w-100">Recherche</button>
               </div>
             </div>
           </div>

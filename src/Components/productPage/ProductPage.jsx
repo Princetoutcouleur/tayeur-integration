@@ -13,7 +13,7 @@ const ProductPage = () => {
         <p className='fw-bold'>Tous les items</p>
         <p className='fs-6'>Nos <span className='fw-bold'>Produits</span></p>
         <div className="row">
-        <div className="col-xl-3 col-lg-3">
+        <div className="col-xl-3 col-lg-3 mb-4">
           <Filtre />
         </div>
         <div className="col-xl-9 col-lg-9">

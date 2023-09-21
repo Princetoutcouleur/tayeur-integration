@@ -3,7 +3,7 @@ import { BsChevronLeft } from "react-icons/bs";
 
 const Filtre = () => {
   return (
-    <div class="card rounded-0 shadow-sm mb-3">
+    <div class="card rounded-0 shadow-sm">
       <div class="card-body">
         <div className="d-flex justify-content-between align-items-baseline mb-3">
           <p>Filtres</p>
